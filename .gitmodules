@@ -1,0 +1,3 @@
+[submodule "ubuntucinnamon-environment"]
+	path = ubuntucinnamon-environment
+	url = https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-environment

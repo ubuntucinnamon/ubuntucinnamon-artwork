@@ -1,0 +1,317 @@
+budgie-artwork (0.12.4) groovy; urgency=medium
+
+  * Resolve FTBFS due to sassc changes
+    - pocillo-gtk-theme updated
+    - qogirbudgie theme updated
+  * Packaging Changes
+    - rules: Resolve new-line lintian warning
+    - control: Add debhelper-compat=12 and remove compat to resolve lintian
+      warning
+    - copyright: Convert tabs to spaces to resolve lintian warning 
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 28 May 2020 09:48:35 +0100
+
+budgie-artwork (0.12.3) focal; urgency=medium
+
+  * Bug-fix
+    Fix missing close button Pocillo styling for pixelsaver applet
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 30 Mar 2020 07:37:33 +0100
+
+budgie-artwork (0.12.2) focal; urgency=medium
+
+  * Bug-fix
+    revert SSD decoration changes causing shadow artifacts
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 20 Mar 2020 13:06:51 +0000
+
+budgie-artwork (0.12.1) focal; urgency=medium
+
+  * New release
+    - Note at v0.12.0 qogirbudgie was also built from source
+    - Qogir dark button theme fixes
+    - Pocillo nemo progress color fix
+    - Pocillo nemo sidebar padding increase
+    - Pocillo lock screen button styling change
+    - Pocillo chrome entry field focus colour update
+    - Pocillo Colour contrast for global menu
+    - Pocillo padding change for SSDs
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 17 Mar 2020 23:43:35 +0000
+
+budgie-artwork (0.12.0) focal; urgency=medium
+
+  * New release
+    - Build pocillo-gtk-theme from source
+  * Packaging Changes
+    - control: Update BD version; no changes required
+    - control: Add build dependencies for compilation of themes
+    - control: change deprecated gnome-themes-standard for
+      gnome-themes-extra
+    - copyright: bump copyright year to 2020
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 01 Mar 2020 12:49:05 +0000
+
+budgie-artwork (0.11.1) eoan; urgency=medium
+
+  * Remove pocillo onboard icon since it was clashing with Moka
+  * Refresh QogirBudgie theme from upstream
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 09 Sep 2019 19:14:10 +0100
+
+budgie-artwork (0.11.0) eoan; urgency=medium
+
+  * New release
+    - Refresh QogirBudgie theme
+  * Packaging Changes
+    - tidy plymouth text install to hide removal of legacy plymouth removal
+    - control & compat update to debhelper12
+    - control bump StandardsVersion - no changes required
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 18 Aug 2019 16:25:32 +0100
+
+budgie-artwork (0.10.5) disco; urgency=medium
+
+  * Bug fix release
+    - Re-add our version of the ubuntu-logo icon accidentally deleted from
+      the previous release
+    - QogirBudgie theme fixes for square decor buttons
+    - Pocillo fixes to ensure notification lists have selected highlights
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 13 Mar 2019 18:36:52 +0000
+
+budgie-artwork (0.10.4) disco; urgency=medium
+
+  * Bug fix release
+    - Pocillo theme fixes for nemo and GCC
+    - QogirBudgie theme fixes for GCC; latest upstream fixes
+    - Remove unneeded Budgie icons from Pocillo
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 09 Mar 2019 19:36:37 +0000
+
+budgie-artwork (0.10.3) disco; urgency=medium
+
+  * New upstream release
+    - Slick greeter wallpaper default changed
+    - Refresh Pocillo theme with GNOME Control Center, switch and
+      desktop icon hover styling updates
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 16 Feb 2019 22:47:50 +0000
+
+budgie-artwork (0.10.2) disco; urgency=medium
+
+  * New upstream release
+    - Refresh Pocillo theme with raven and nemo styling fixes
+    - Refresh QogirBudgie GTK+ theme from latest git
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 09 Feb 2019 15:19:51 +0000
+
+budgie-artwork (0.10.1) disco; urgency=medium
+
+  * New upstream release
+    - add QogirBudgie GTK+ theme
+    - Refresh with latest Pocillo Icon Theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 20 Jan 2019 00:00:12 +0000
+
+budgie-artwork (0.10.0) disco; urgency=medium
+
+  * New upstream release
+    - refreshed Pocillo GTK+ theme
+  * Packaging Changes
+    - compat/control StandardsVersion bump; no changes required
+    - add set -e to pre/post scripts to resolve lintian issues
+    - remove obsolete lightdm maintainer script
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 11 Jan 2019 10:33:28 +0000
+
+budgie-artwork (0.9.7) cosmic; urgency=medium
+
+  * Bug fix release
+    - Regenerate Pocillo gtk theme to fix various budgie styling issues
+      and install CSS in the correct GTK+3.24 folders
+    - Include missing Folder Color icons of Pocillo icon theme
+  * Packaging Changes
+    - control: update descriptions for GTK+3.24
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 03 Oct 2018 21:53:48 +0100
+
+budgie-artwork (0.9.6) bionic; urgency=medium
+
+  * Bug fix release
+    - Fix CSS errors displayed in terminal due to invalid Pocillo CSS
+    - Styling fixes for Pocillo on lock and logon screens
+    - Fix headbar hover and separator display
+    - Make the lsb-release triggers interest-noawait, so that we don't block
+      configuration of an Essential: yes package during upgrades
+      (LP: #1750465)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 27 Mar 2018 21:04:40 +0100
+
+budgie-artwork (0.9.5) bionic; urgency=medium
+
+  * Bug fix release
+    - Corrected greeter theme; now Pocillo to match the default
+      desktop
+    - Add missing Pocillo theming for lightdm greeters
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 21 Mar 2018 21:02:09 +0000
+
+budgie-artwork (0.9.4) bionic; urgency=medium
+
+  * Bug fix release
+    - styling changes on lock-screen
+    - regenerate assets
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 15 Mar 2018 20:50:50 +0000
+
+budgie-artwork (0.9.3) bionic; urgency=medium
+
+  * Bug fix release
+    - gnome-screensaver for budgie is missing its theming
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 10 Mar 2018 00:22:51 +0000
+
+budgie-artwork (0.9.2) bionic; urgency=medium
+
+  * Bug fix release
+    - Plymouth (text) displays the distro version
+    - Plymough (logo) displays the progress-bar centered
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 23 Feb 2018 17:30:12 +0000
+
+budgie-artwork (0.9.1) bionic; urgency=medium
+
+  * New upstream release
+    - Revised Pocillo theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 06 Feb 2018 20:03:21 +0000
+
+budgie-artwork (0.9.0) bionic; urgency=medium
+
+  * New release
+    - Add Pocillo GTK+3.22 themes
+  * Packaging Changes:
+    - debian/copyright: 2018 year change update
+    - debian/copyright: Add pocillo-gtk-theme copyright
+    - debian/control: Bump Standards-Version (no changes required)
+    - debian/control: Bump debhelper version
+    - debian/control: Add binary package ubuntu-budgie-themes
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 31 Jan 2018 23:29:53 +0000
+
+budgie-artwork (0.8.3) artful; urgency=medium
+
+  * New release. (LP: #1708250)
+    - Update Pocillo theme structure
+    - add enabled wired connection icon
+  * Packaging Changes:
+    - update debian/copyright for the project to GPL-3
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 02 Aug 2017 19:53:02 +0100
+
+budgie-artwork (0.8.2) artful; urgency=medium
+
+  * New release. (LP: #1702171)
+    - Incorporate mono-style based icons suitable for panel icons
+  * Packaging Changes:
+    - debian/copyright: copyright updates for Pocillo
+      year updates for Ubuntu Budgie components
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 03 Jul 2017 13:14:46 +0100
+
+budgie-artwork (0.8.1) artful; urgency=medium
+
+  * New release. (LP: #1694328)
+    - switch from lightdm-gtk-greeter to slick-greeter
+  * Packaging Changes:
+    - remove /etc based 50_ubuntubudgie.conf file via maintscript
+    - updated slightly the package descriptions in debian/control
+    - install an override file to configure slick-greeter
+    - add breaks lightdm-gtk-greeter to force uninstall of lightdm-gtk-greeter
+      this is needed since slick-greeter.conf file has a lower value than
+      lightdm-gtk-greeter and hence upgraders from 17.04 to 17.10 will be
+      left with an unthemed login greeter.
+    - remove the previous gtk-greeter conf folder installation
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 29 May 2017 00:14:42 +0100
+
+budgie-artwork (0.8.0) artful; urgency=medium
+
+  * New release. (LP: #1690589)
+    - Disable guest session
+    - correctly name plymouth theme to enable full disk encryption
+      password box to display (LP: #1685809)
+  * Packaging Changes:
+    - Update debian/ plymouth installation files for corrected
+      plymouth theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 13 May 2017 21:20:34 +0000
+
+budgie-artwork (0.7.2) artful; urgency=medium
+
+  * Bug-fix release.
+    - corrected lightdm-gtk-greeter conf file name
+    - remove budgie-desktop_badge-symbolic.svg since this
+      now exists in lightdm-gtk-greeter v2.0.2-1
+  * Packaging Changes:
+    - Corrected description for lightdm session package
+    - changed debian/lightdm-theme.install to not install greeter icons
+    - add debian/lightdm-theme.maintscript to remove old greeter conf file
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 20 Mar 2017 21:20:34 +0000
+
+budgie-artwork (0.7.1) zesty; urgency=medium
+
+  * New release. (LP: #1662023)
+  * Update pocillo-icon-theme with the latest changes
+  * Packaging Changes:
+    - update Pocillo installer to new source location
+    - corrected plymouth text postinst
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 05 Feb 2017 21:21:27 +0000
+
+budgie-artwork (0.7) zesty; urgency=medium
+
+  * New release. (LP: #1652590)
+  * Packaging Changes
+    - introduce a lightdm base package to allow self budgie-desktop builds
+      using the Ubuntu Minimal ISO.
+    - ensure the switch of binary package position for
+      50_budgie-desktop.conf does not break for upgrade from yakkety
+    - up debhelper version to 10 to reflect current Debian packaging practice
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 22 Dec 2016 15:14:14 +0000
+
+budgie-artwork (0.6.1) zesty; urgency=medium
+
+  * New release. (LP: #1645146)
+  * add pocillo-icon-theme
+    - add an icon-theme that blends Moka with Arc-theme
+  * Change plymouth files to reflect budgie-remix --> Ubuntu Budgie rename
+  * Change plymouth files copyright to update David Mohammed email address
+  * Packaging Changes:
+    - update vcr fields to reflect Ubuntu Budgie github repo rename
+    - update copyright to reflect Ubuntu Budgie github repo rename
+    - update control to reflect Ubuntu Budgie plymouth packages rename
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 19 Nov 2016 19:42:56 +0100
+
+budgie-artwork (0.5.5) yakkety; urgency=medium
+
+  * Bug fix release. (LP: #1621221)
+  * bug-fix for greeter display
+    - create 50_budgie-desktop.conf /etc/lightdm/lightdm.conf.d
+      to enable budgie-configuration of lightdm-gtk-greeter to display
+    - delete obsolete lightdm.conf from /usr/share/budgieremix/lightdm
+  * packaging changes
+    - delete obsolete budgieremix folder
+    - correct Vcs to point to master branch
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 07 Sep 2016 11:02:54 +0100
+
+budgie-artwork (0.5.4) yakkety; urgency=medium
+
+  * Initial release (LP: #1594600)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 1 Aug 2016 15:38:41 +0100
