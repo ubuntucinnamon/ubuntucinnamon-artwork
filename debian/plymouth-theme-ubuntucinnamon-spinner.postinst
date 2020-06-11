@@ -21,15 +21,7 @@ case "$1" in
     configure)
 	update-alternatives \
 		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
-		/usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo.plymouth 150 \
-		--slave /usr/share/plymouth/themes/default.grub default.plymouth.grub \
-		/usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo.grub
-
-	update-alternatives \
-		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
-		/usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo-scale-2.plymouth 149 \
-		--slave /usr/share/plymouth/themes/default.grub default.plymouth.grub \
-		/usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo.grub
+		/usr/share/plymouth/themes/ubuntucinnamon-spinner/ubuntucinnamon-spinner.plymouth 150
 
 	if which update-initramfs >/dev/null 2>&1
 	then
@@ -48,4 +40,3 @@ esac
 
 #DEBHELPER#
 exit 0
-
