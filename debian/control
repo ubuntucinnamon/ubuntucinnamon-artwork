@@ -11,6 +11,8 @@ Build-Depends: debhelper (>= 12), debhelper-compat (=12)
 Package: ubuntucinnamon-lightdm-theme
 Architecture: all
 Depends: ${misc:Depends},
+         kimmo-gtk-theme,
+         kimmo-icon-theme,
          ubuntucinnamon-lightdm-theme-base,
          ubuntucinnamon-wallpapers-focal
 Description: LightDM Greeter theme for Ubuntu Cinnamon
