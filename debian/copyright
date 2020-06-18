@@ -24,13 +24,14 @@ Files:
 Copyright:
     2016, jimmac
     2019, Canonical Ltd.
-    2020 Joshua Peisach <ubuntucinnamonremix7@gmail.com>
+    2020, Joshua Peisach <ubuntucinnamonremix7@gmail.com>
 License: GPL-2+
 
 Files: ubuntucinnamon-grub-theme/themes/*
 Copyright:
     2017, vinceliuice
-    2020 Joshua Peisach <ubuntucinnamonremix7@gmail.com>
+    2020, Joshua Peisach <ubuntucinnamonremix7@gmail.com>
+License: GPL-2+
 
 LICENSE: GPL-2+
  This program is free software; you can redistribute it and/or modify
