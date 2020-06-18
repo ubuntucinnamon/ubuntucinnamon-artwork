@@ -6,7 +6,34 @@ Standards-Version: 4.5.0
 Vcs-Browser: https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-artwork/
 Vcs-Git: https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-artwork.git
 Homepage: https://github.com/Ubuntu-Cinnamon-Remix
-Build-Depends: debhelper (>= 12), debhelper-compat (=12)
+Build-Depends: debhelper (>= 12), debhelper-compat (=12), make
+
+Package: plymouth-theme-ubuntucinnamon-spinner
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-theme-spinner
+Provides: plymouth-theme
+Replaces: plymouth (<< 0.8.1-1~)
+Breaks: plymouth (<< 0.9.2-3ubuntu1~),
+Description: boot animation, logger and I/O multiplexer - spinner theme
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package contains the spinner theme.
+
+Package: ubuntucinnamon-grub-theme
+Architecture: all
+Depends: ${misc:Depends}, grub-common, grub2, grub2-common
+Description: Ubuntu Cinnamon theme for GRUB Bootloader.
+ Beautiful grub2 theme made by vinceliuice.
+ https://github.com/vinceliuice/grub2-themes
+ .
+ This package is the Ubuntu Cinnamon GRUB Theming for the GRUB Bootloader.
+ This theme is a fork of vinceliuice's grub theme, colorized and made for
+ the Ubuntu Cinnamon Remix.
 
 Package: ubuntucinnamon-lightdm-theme
 Architecture: all
@@ -34,19 +61,3 @@ Description: LightDM Session for Ubuntu Cinnamon
  without needing all of the Ubuntu Cinnamon styling changes.
  .
  This package allows calamares to autologin on self build installations.
-
-Package: plymouth-theme-ubuntucinnamon-spinner
-Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-theme-spinner
-Provides: plymouth-theme
-Replaces: plymouth (<< 0.8.1-1~)
-Breaks: plymouth (<< 0.9.2-3ubuntu1~),
-Description: boot animation, logger and I/O multiplexer - spinner theme
- Plymouth provides a boot-time I/O multiplexing framework - the most obvious
- use for which is to provide an attractive graphical animation in place of
- the text messages that normally get shown during boot. (The messages are
- instead redirected to a logfile for later viewing.) However, in event-driven
- boot systems Plymouth can also usefully handle user interaction such as
- password prompts for encrypted file systems.
- .
- This package contains the spinner theme.

@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (20.06) groovy; urgency=medium
+
+  * Initial fork and release for Ubuntu Cinnamon's Artwork
+
+ -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Thu, 18 Jun 2020 13:49:12 -0400
+
 budgie-artwork (0.12.4) groovy; urgency=medium
 
   * Resolve FTBFS due to sassc changes
@@ -7,7 +13,7 @@ budgie-artwork (0.12.4) groovy; urgency=medium
     - rules: Resolve new-line lintian warning
     - control: Add debhelper-compat=12 and remove compat to resolve lintian
       warning
-    - copyright: Convert tabs to spaces to resolve lintian warning 
+    - copyright: Convert tabs to spaces to resolve lintian warning
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 28 May 2020 09:48:35 +0100
 

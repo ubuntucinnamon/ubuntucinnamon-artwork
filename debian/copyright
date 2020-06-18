@@ -20,12 +20,17 @@ License: LGPL-2.1
  '/usr/share/common-licenses/LGPL-2.1'.
 
 Files:
-    usr/share/plymouth/themes/ubuntucinnamon-spinner/ubuntucinnamon-spinner.plymouth
+    plymouth-theme-ubuntucinnamon-spinner/plymouth/themes/ubuntucinnamon-spinner.plymouth
 Copyright:
     2016, jimmac
     2019, Canonical Ltd.
     2020 Joshua Peisach <ubuntucinnamonremix7@gmail.com>
 License: GPL-2+
+
+Files: ubuntucinnamon-grub-theme/themes/*
+Copyright:
+    2017, vinceliuice
+    2020 Joshua Peisach <ubuntucinnamonremix7@gmail.com>
 
 LICENSE: GPL-2+
  This program is free software; you can redistribute it and/or modify
