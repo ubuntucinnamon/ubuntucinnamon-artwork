@@ -1,12 +1,12 @@
 install:
-	mkdir usr/share/
+	mkdir -p usr/share/
 	cp -r plymouth-theme-ubuntucinnamon-spinner/plymouth usr/share
 
 	cp -r ubuntucinnamon-grub-theme/boot .
 
 clean:
-	mkdir usr/share
-	mkdir boot
-	
+	mkdir -p usr/share/
+	mkdir -p boot/
+
 	rm -r usr/share
 	rm -r boot
