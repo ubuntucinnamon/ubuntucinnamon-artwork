@@ -5,5 +5,8 @@ install:
 	cp -r ubuntucinnamon-grub-theme/boot .
 
 clean:
+	mkdir usr/share
+	mkdir boot
+	
 	rm -r usr/share
 	rm -r boot
