@@ -38,8 +38,8 @@ Description: Ubuntu Cinnamon theme for GRUB Bootloader.
 Package: ubuntucinnamon-lightdm-theme
 Architecture: all
 Depends: ${misc:Depends},
-         kimmo-gtk-theme,
-         kimmo-icon-theme,
+         kimmo-gtk-theme-all,
+         kimmo-icon-theme-all,
          ubuntucinnamon-lightdm-theme-base,
          ubuntucinnamon-wallpapers-focal
 Description: LightDM Greeter theme for Ubuntu Cinnamon

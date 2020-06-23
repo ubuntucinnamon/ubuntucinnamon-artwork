@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (20.06.1) groovy; urgency=medium
+
+  * Fix kimmo theme dependencies to avoid ISO Building problems
+
+ -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Mon, 22 Jun 2020 20:08:56 -0400
+
 ubuntucinnamon-artwork (20.06) groovy; urgency=medium
 
   * Initial fork and release for Ubuntu Cinnamon's Artwork
