@@ -1,6 +1,3 @@
 [submodule "plymouth-theme-ubuntucinnamon-spinner"]
 	path = plymouth-theme-ubuntucinnamon-spinner
 	url = https://github.com/Ubuntu-Cinnamon-Remix/plymouth-theme-ubuntucinnamon-spinner
-[submodule "ubuntucinnamon-grub-theme"]
-	path = ubuntucinnamon-grub-theme
-	url = https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-grub-theme
