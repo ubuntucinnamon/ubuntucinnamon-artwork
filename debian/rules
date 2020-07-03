@@ -3,12 +3,3 @@ export DH_VERBOSE = 1
 
 %:
 	dh $@
-
-dh_auto_build:
-	make install
-
-clean:
-	make clean
-	dh_testdir
-	dh_auto_clean
-	dh_clean

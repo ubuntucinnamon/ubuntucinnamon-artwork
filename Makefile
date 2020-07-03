@@ -1,4 +1,4 @@
-install:
+build:
 	mkdir -p usr/share/
 	cp -r plymouth-theme-ubuntucinnamon-spinner/plymouth usr/share
 

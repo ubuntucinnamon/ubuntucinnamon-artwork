@@ -24,17 +24,6 @@ Description: boot animation, logger and I/O multiplexer - spinner theme
  .
  This package contains the spinner theme.
 
-Package: ubuntucinnamon-grub-theme
-Architecture: all
-Depends: ${misc:Depends}, grub-common, grub2, grub2-common
-Description: Ubuntu Cinnamon theme for GRUB Bootloader.
- Beautiful grub2 theme made by vinceliuice.
- https://github.com/vinceliuice/grub2-themes
- .
- This package is the Ubuntu Cinnamon GRUB Theming for the GRUB Bootloader.
- This theme is a fork of vinceliuice's grub theme, colorized and made for
- the Ubuntu Cinnamon Remix.
-
 Package: ubuntucinnamon-lightdm-theme
 Architecture: all
 Depends: ${misc:Depends},
