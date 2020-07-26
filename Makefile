@@ -5,4 +5,4 @@ build:
 clean:
 	mkdir -p usr/share/
 
-	rm -r usr/share
+	rm -r usr

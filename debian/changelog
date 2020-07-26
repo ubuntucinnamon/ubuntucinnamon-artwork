@@ -1,3 +1,10 @@
+ubuntucinnamon-artwork (20.07) focal; urgency=medium
+
+  * Focal rebuild
+  * Improve Makefile a bit
+
+ -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Sun, 26 Jul 2020 15:34:28 -0400
+
 ubuntucinnamon-artwork (20.06.2) groovy; urgency=medium
 
   * Remove GRUB Theme
