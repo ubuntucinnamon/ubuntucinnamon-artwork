@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (20.07.2) focal; urgency=medium
+
+  * Fix icon theme package names (remove -all)
+
+ -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Thu, 30 Jul 2020 11:52:26 -0400
+
 ubuntucinnamon-artwork (20.07.1) focal; urgency=medium
 
   * Update icon theme now
