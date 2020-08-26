@@ -1,40 +1,46 @@
+ubuntucinnamon-artwork (20.10) groovy; urgency=medium
+
+  * Groovy rebuild for feature freeze
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Wed, 26 Aug 2020 13:03:20 -0400
+
 ubuntucinnamon-artwork (20.07.2) focal; urgency=medium
 
   * Fix icon theme package names (remove -all)
 
- -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Thu, 30 Jul 2020 11:52:26 -0400
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Thu, 30 Jul 2020 11:52:26 -0400
 
 ubuntucinnamon-artwork (20.07.1) focal; urgency=medium
 
   * Update icon theme now
 
- -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Tue, 28 Jul 2020 15:36:49 -0400
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Tue, 28 Jul 2020 15:36:49 -0400
 
 ubuntucinnamon-artwork (20.07) focal; urgency=medium
 
   * Focal rebuild
   * Improve Makefile a bit
 
- -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Sun, 26 Jul 2020 15:34:28 -0400
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sun, 26 Jul 2020 15:34:28 -0400
 
 ubuntucinnamon-artwork (20.06.2) groovy; urgency=medium
 
   * Remove GRUB Theme
   * Fix and improve packaging
 
- -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Fri, 03 Jul 2020 15:08:52 -0400
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Fri, 03 Jul 2020 15:08:52 -0400
 
 ubuntucinnamon-artwork (20.06.1) groovy; urgency=medium
 
   * Fix kimmo theme dependencies to avoid ISO Building problems
 
- -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Mon, 22 Jun 2020 20:08:56 -0400
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Mon, 22 Jun 2020 20:08:56 -0400
 
 ubuntucinnamon-artwork (20.06) groovy; urgency=medium
 
   * Initial fork and release for Ubuntu Cinnamon's Artwork
 
- -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Thu, 18 Jun 2020 13:49:12 -0400
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Thu, 18 Jun 2020 13:49:12 -0400
 
 budgie-artwork (0.12.4) groovy; urgency=medium
 
