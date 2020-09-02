@@ -2,5 +2,5 @@
 font-name='Ubuntu 11'
 background='/usr/share/backgrounds/ubuntucinnamon/focal/ubuntu_cinnamon_focal_fossa.jpg'
 draw-grid=false
-theme-name='Kimmo-Dark'
-icon-theme-name='Kimmo'
+theme-name='Arc-Dark'
+icon-theme-name='Numix'
