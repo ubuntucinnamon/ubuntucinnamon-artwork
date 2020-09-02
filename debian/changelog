@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (20.10.1) groovy; urgency=medium
+
+  * Switch out of Kimmo Themes (use Arc/Numix)
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Wed, 02 Sep 2020 13:25:21 -0400
+
 ubuntucinnamon-artwork (20.10) groovy; urgency=medium
 
   * Groovy rebuild for feature freeze
