@@ -27,8 +27,8 @@ Description: boot animation, logger and I/O multiplexer - spinner theme
 Package: ubuntucinnamon-lightdm-theme
 Architecture: all
 Depends: ${misc:Depends},
-         arc-theme,
-         numix-icon-theme,
+         kimmo-gtk-theme,
+         kimmo-icon-theme,
          ubuntucinnamon-lightdm-theme-base,
          ubuntucinnamon-wallpapers-focal
 Description: LightDM Greeter theme for Ubuntu Cinnamon
