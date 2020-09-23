@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (20.10.1.1) groovy; urgency=medium
+
+  * Revert last commit (Switch back to Kimmo Themes)
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Wed, 23 Sep 2020 16:07:38 -0400
+
 ubuntucinnamon-artwork (20.10.1) groovy; urgency=medium
 
   * Switch out of Kimmo Themes (use Arc/Numix)
