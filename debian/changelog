@@ -1,3 +1,10 @@
+ubuntucinnamon-artwork (20.11) hirsute; urgency=medium
+
+  * Switch to Yaru-Cinnamon themes
+  * Hirsute rebuild
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sun, 08 Nov 2020 22:14:39 -0500
+
 ubuntucinnamon-artwork (20.10.1.1) groovy; urgency=medium
 
   * Revert last commit (Switch back to Kimmo Themes)
