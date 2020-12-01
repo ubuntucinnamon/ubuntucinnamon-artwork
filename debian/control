@@ -2,7 +2,8 @@ Source: ubuntucinnamon-artwork
 Priority: optional
 Section: x11
 Maintainer: Joshua Peisach <itzswirlz2020@outlook.com>
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
 Vcs-Browser: https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-artwork/
 Vcs-Git: https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-artwork.git
 Homepage: https://github.com/Ubuntu-Cinnamon-Remix
