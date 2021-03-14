@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (21.04.1) hirsute; urgency=medium
+
+  * Don't use a pointless makefile
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sat, 13 Mar 2021 21:14:41 -0500
+
 ubuntucinnamon-artwork (21.04) hirsute; urgency=medium
 
   * Fix plymouth theme, ensure firmware image is shown
