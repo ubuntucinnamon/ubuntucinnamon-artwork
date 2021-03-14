@@ -1,2 +1,2 @@
-usr/share/plymouth/themes/ubuntucinnamon-spinner/
-usr/share/plymouth/ubuntucinnamon-logo.png
+plymouth-theme-ubuntucinnamon-spinner/plymouth/themes/ubuntucinnamon-spinner/ /usr/share/plymouth/themes
+plymouth-theme-ubuntucinnamon-spinner/plymouth/ubuntucinnamon-logo.png /usr/share/plymouth/
