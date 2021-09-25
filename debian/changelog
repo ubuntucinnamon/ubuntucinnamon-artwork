@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (21.10.1) impish; urgency=medium
+
+  * Prepare for impish release
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sat, 25 Sep 2021 12:36:08 -0400
+
 ubuntucinnamon-artwork (21.10) impish; urgency=medium
 
   * Support more 64-bit architectures
