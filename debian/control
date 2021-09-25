@@ -2,7 +2,7 @@ Source: ubuntucinnamon-artwork
 Priority: optional
 Section: x11
 Maintainer: Joshua Peisach <itzswirlz2020@outlook.com>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0
 Rules-Requires-Root: no
 Vcs-Browser: https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-artwork/
 Vcs-Git: https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-artwork.git
@@ -31,7 +31,7 @@ Depends: ${misc:Depends},
          yaru-cinnamon-theme-gtk,
          yaru-cinnamon-theme-icon,
          ubuntucinnamon-lightdm-theme-base,
-         ubuntucinnamon-wallpapers-hirsute
+         ubuntucinnamon-wallpapers-impish
 Description: LightDM Greeter theme for Ubuntu Cinnamon
  This is the LightDM greeter theme and configuration
  used for a standalone Ubuntu Cinnamon installation.
