@@ -1,3 +1,10 @@
+ubuntucinnamon-artwork (22.04.1) jammy; urgency=medium
+
+  * Plymouth theme: add fallback image for manufacturer
+  * Set fonts to Ubuntu
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Mon, 14 Mar 2022 16:51:00 -0400
+
 ubuntucinnamon-artwork (22.04) jammy; urgency=medium
 
   * Jammy rebuild
