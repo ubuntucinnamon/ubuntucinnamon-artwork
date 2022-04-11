@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (22.04.2) jammy; urgency=medium
+
+  * Resize bgrt-fallback image
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Mon, 11 Apr 2022 16:55:00 -0400
+
 ubuntucinnamon-artwork (22.04.1) jammy; urgency=medium
 
   * Plymouth theme: add fallback image for manufacturer
