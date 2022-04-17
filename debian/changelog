@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (22.04.3) jammy; urgency=medium
+
+  * Fix lightdm background image (impish -> jammy)
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sun, 17 Apr 2022 10:26:29 -0400
+
 ubuntucinnamon-artwork (22.04.2) jammy; urgency=medium
 
   * Resize bgrt-fallback image
