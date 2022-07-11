@@ -1,3 +1,10 @@
+ubuntucinnamon-artwork (22.07) kinetic; urgency=medium
+
+  * Kinetic rebuild
+  * Fix copyright
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sat, 09 Jul 2022 12:54:45 -0400
+
 ubuntucinnamon-artwork (22.04.3) jammy; urgency=medium
 
   * Fix lightdm background image (impish -> jammy)
