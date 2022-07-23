@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (22.07.1) kinetic; urgency=medium
+
+  * Set architecture to 'all'
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sat, 23 Jul 2022 11:38:20 -0400
+
 ubuntucinnamon-artwork (22.07) kinetic; urgency=medium
 
   * Kinetic rebuild
