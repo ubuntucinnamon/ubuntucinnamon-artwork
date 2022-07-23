@@ -10,7 +10,7 @@ Homepage: https://github.com/Ubuntu-Cinnamon-Remix
 Build-Depends: debhelper (>= 12), debhelper-compat (= 13)
 
 Package: plymouth-theme-ubuntucinnamon-spinner
-Architecture: amd64 arm64 mips64el ppc64el s390x
+Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-theme-spinner
 Provides: plymouth-theme
 Replaces: plymouth (<< 0.8.1-1~)
@@ -26,7 +26,7 @@ Description: boot animation, logger and I/O multiplexer - spinner theme
  This package contains the spinner theme.
 
 Package: ubuntucinnamon-lightdm-theme
-Architecture: amd64 arm64 mips64el ppc64el s390x
+Architecture: all
 Depends: ${misc:Depends},
          yaru-cinnamon-theme-gtk,
          yaru-cinnamon-theme-icon,
@@ -41,7 +41,7 @@ Description: LightDM Greeter theme for Ubuntu Cinnamon
  theme, but it will replace the LightDM theme.
 
 Package: ubuntucinnamon-lightdm-theme-base
-Architecture: amd64 arm64 mips64el ppc64el s390x
+Architecture: all
 Breaks: ubuntucinnamon-lightdm-theme (<= 0.6.1),
     lightdm-gtk-greeter (<= 2.0.2)
 Depends: ${misc:Depends},
