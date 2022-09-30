@@ -31,7 +31,7 @@ Depends: ${misc:Depends},
          yaru-cinnamon-theme-gtk,
          yaru-cinnamon-theme-icon,
          ubuntucinnamon-lightdm-theme-base,
-         ubuntucinnamon-wallpapers-jammy
+         ubuntucinnamon-wallpapers-kinetic
 Description: LightDM Greeter theme for Ubuntu Cinnamon
  This is the LightDM greeter theme and configuration
  used for a standalone Ubuntu Cinnamon installation.

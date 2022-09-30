@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (22.10.1) kinetic; urgency=medium
+
+  * Set wallpapers to kinetic
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Fri, 30 Sep 2022 18:38:38 -0400
+
 ubuntucinnamon-artwork (22.07.1) kinetic; urgency=medium
 
   * Set architecture to 'all'
