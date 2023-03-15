@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (23.04.1) lunar; urgency=medium
+
+  * Use lunar wallpaper and correct Yaru-Cinnamon theme name
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Wed, 15 Mar 2023 14:29:50 -0400
+
 ubuntucinnamon-artwork (22.10.1) kinetic; urgency=medium
 
   * Set wallpapers to kinetic (LP: #1991428)
