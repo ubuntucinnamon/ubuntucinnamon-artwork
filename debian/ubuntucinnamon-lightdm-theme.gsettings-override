@@ -1,6 +1,6 @@
 [x.dm.slick-greeter]
 font-name='Ubuntu 11'
-background='/usr/share/backgrounds/ubuntucinnamon/lunar/ubuntu_cinnamon_lunar_lobster.jpg'
+background='/usr/share/backgrounds/ubuntucinnamon/mantic/ubuntu_cinnamon_mantic_minotaur.jpg'
 draw-grid=false
 theme-name='Yaru-cinnamon-dark'
 icon-theme-name='Yaru-cinnamon'
