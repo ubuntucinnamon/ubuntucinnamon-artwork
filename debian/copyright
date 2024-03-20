@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ubuntucinnamon-artwork
-Source: https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-artwork
+Source: https://github.com/ubuntucinnamon/ubuntucinnamon-artwork
 
 Files: *
 Copyright: Copyright 2016-2020 David Mohammed <fossfreedom@ubuntu.com>

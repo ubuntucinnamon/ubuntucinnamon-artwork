@@ -4,9 +4,9 @@ Section: x11
 Maintainer: Joshua Peisach <itzswirlz2020@outlook.com>
 Standards-Version: 4.6.0
 Rules-Requires-Root: no
-Vcs-Browser: https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-artwork/
-Vcs-Git: https://github.com/Ubuntu-Cinnamon-Remix/ubuntucinnamon-artwork.git
-Homepage: https://github.com/Ubuntu-Cinnamon-Remix
+Vcs-Browser: https://github.com/ubuntucinnamon/ubuntucinnamon-artwork/
+Vcs-Git: https://github.com/ubuntucinnamon/ubuntucinnamon-artwork.git
+Homepage: https://github.com/ubuntucinnamon
 Build-Depends: debhelper (>= 12), debhelper-compat (= 13)
 
 Package: plymouth-theme-ubuntucinnamon-spinner
@@ -31,7 +31,7 @@ Depends: ${misc:Depends},
          yaru-cinnamon-theme-gtk,
          yaru-cinnamon-theme-icon,
          ubuntucinnamon-lightdm-theme-base,
-         ubuntucinnamon-wallpapers-mantic
+         ubuntucinnamon-wallpapers-noble
 Description: LightDM Greeter theme for Ubuntu Cinnamon
  This is the LightDM greeter theme and configuration
  used for a standalone Ubuntu Cinnamon installation.
@@ -49,5 +49,3 @@ Depends: ${misc:Depends},
 Description: LightDM Session for Ubuntu Cinnamon
  This is the LightDM Session used to launch ubuntucinnamon-desktop
  without needing all of the Ubuntu Cinnamon styling changes.
- .
- This package allows calamares to autologin on self build installations.
