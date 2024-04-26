@@ -4,11 +4,11 @@ Description=A theme designed by jimmac that features a simple spinner. Forked by
 ModuleName=two-step
 
 [two-step]
-Font=Ubuntu 9
-TitleFont=Ubuntu Bold 10
+Font=Ubuntu 12
+TitleFont=Ubuntu Bold 30
 ImageDir=/usr/share/plymouth/themes/ubuntucinnamon-spinner
 DialogHorizontalAlignment=.5
-DialogVerticalAlignment=.382
+DialogVerticalAlignment=.7
 TitleHorizontalAlignment=.5
 TitleVerticalAlignment=.382
 HorizontalAlignment=.5
@@ -40,22 +40,26 @@ UseFirmwareBackground=true
 SuppressMessages=true
 ProgressBarShowPercentComplete=true
 UseProgressBar=true
-UseFirmwareBackground=true
-_Title=Installing Updates...
-_SubTitle=Do not turn off your computer
+Title=Installing Updates...
+SubTitle=Do not turn off your computer
 
 [system-upgrade]
 SuppressMessages=true
 ProgressBarShowPercentComplete=true
 UseProgressBar=true
-UseFirmwareBackground=true
-_Title=Upgrading System...
-_SubTitle=Do not turn off your computer
+Title=Upgrading System...
+SubTitle=Do not turn off your computer
 
 [firmware-upgrade]
 SuppressMessages=true
 ProgressBarShowPercentComplete=true
 UseProgressBar=true
-UseFirmwareBackground=true
-_Title=Upgrading Firmware...
-_SubTitle=Do not turn off your computer
+Title=Upgrading Firmware...
+SubTitle=Do not turn off your computer
+
+[system-reset]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Resetting System...
+SubTitle=Do not turn off your computer

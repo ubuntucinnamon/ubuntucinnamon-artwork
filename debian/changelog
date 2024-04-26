@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (24.04.1) noble; urgency=medium
+
+  * Fix Plymouth theme. (LP: #2063379)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 24 Apr 2024 18:45:39 -0500
+
 ubuntucinnamon-artwork (24.04) noble; urgency=medium
 
   * Use noble wallpaper, update repo urls
