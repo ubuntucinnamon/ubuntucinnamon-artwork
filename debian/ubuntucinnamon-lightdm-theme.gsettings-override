@@ -1,6 +1,6 @@
 [x.dm.slick-greeter]
 font-name='Ubuntu 11'
-background='/usr/share/backgrounds/ubuntucinnamon/noble/ubuntu_cinnamon_noble_numbat.jpg'
+background='/usr/share/backgrounds/ubuntucinnamon/oracular/ubuntu_cinnamon_oracular_oriole.jpg'
 draw-grid=false
 theme-name='Yaru-cinnamon-dark'
 icon-theme-name='Yaru-cinnamon'
