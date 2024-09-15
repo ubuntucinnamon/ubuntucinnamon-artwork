@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (24.10) oracular; urgency=medium
+
+  * Use oracular wallpapers
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sun, 15 Sep 2024 07:56:54 -0400
+
 ubuntucinnamon-artwork (24.04.1) noble; urgency=medium
 
   * Fix Plymouth theme. (LP: #2063379)
