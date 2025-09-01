@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (25.10) questing; urgency=medium
+
+  * Use questing wallpapers
+
+ -- Joshua Peisach <jpeisach@ubuntu.com>  Mon, 01 Sep 2025 13:21:07 -0400
+
 ubuntucinnamon-artwork (25.04) plucky; urgency=medium
 
   * Use plucky wallpapaers
