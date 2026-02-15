@@ -1,0 +1,3 @@
+[submodule "slickSDDM"]
+	path = slickSDDM
+	url = https://github.com/ubuntubudgie/slickSDDM.git

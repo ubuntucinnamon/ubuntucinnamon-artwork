@@ -1,0 +1,17 @@
+; https://github.com/uiriansan/SilentSDDM
+
+[SddmGreeterTheme]
+Name=Ubuntu Cinnamon Login
+Description=Ubuntu Cinnamon themed login screen
+Author=Joshua Peisach
+Copyright=(C) 2026
+License=GPLv3
+Type=sddm-theme
+Version=1.0
+Website=https://ubuntucinnamon.org
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=ubuntu-cinnamon-login
+Theme-API=2.0
+QtVersion=6
