@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (26.04) resolute; urgency=medium
+
+  * Use resolute wallpapers
+
+ -- Joshua Peisach <jpeisach@ubuntu.com>  Sat, 07 Mar 2026 07:41:50 -0500
+
 ubuntucinnamon-artwork (25.10) questing; urgency=medium
 
   * Use questing wallpapers
