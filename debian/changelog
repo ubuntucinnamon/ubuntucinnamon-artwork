@@ -1,3 +1,9 @@
+ubuntucinnamon-artwork (26.10) stonking; urgency=medium
+
+  * Use stonking wallpapers
+
+ -- Joshua Peisach <jpeisach@ubuntu.com>  Sun, 20 Sep 2026 16:36:37 -0400
+
 ubuntucinnamon-artwork (26.04.1) resolute; urgency=medium
 
   * Actually use resolute wallpapers
